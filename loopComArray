@@ -1,0 +1,5 @@
+var listaDeCarros = [ "Astra", "Fiesta", "Fox", "Gol", "Uno", "Cherry", "FoxTrade", "NNex", "Telexfree"]
+
+for (var i = 0; i < listaDeCarros.length; i++) {
+  console.log(`Nome do Carro: ${listaDeCarros[i]}`)
+}
