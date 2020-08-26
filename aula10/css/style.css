@@ -1,0 +1,9 @@
+.area {
+    background: #04B404;
+    color: white;
+    font: normal 16pt Ubuntu;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 200px;
+}
