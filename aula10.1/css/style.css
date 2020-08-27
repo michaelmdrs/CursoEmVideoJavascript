@@ -1,0 +1,14 @@
+body {
+    background: chocolate;
+    color: cornsilk;
+    font: normal 18pt Ubuntu;
+}
+
+input {
+    font: normal 18pt Ubuntu;
+    width: 100px;
+}
+
+div#res {
+    margin-top: 30px;
+}
