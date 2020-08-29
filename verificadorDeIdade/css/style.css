@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0044ff;
+    font: normal 16pt Montserrat;
+    margin-top: 30px;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.733);
+    margin: 30px auto;
+    padding: 15px;
+    width: 500px;
+}
+
+div {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    color: #ffffff;
+    font-style: italic;
+    text-align: center;
+}
