@@ -15,7 +15,7 @@ function verificar() {
         img.setAttribute('id', 'foto')
         if (form_sex[0].checked) {
             genero = 'Homem'
-            if (idade >= 0 && idade < 10) {
+            if (idade >= 0 && idade < 12) {
                 img.setAttribute('src', 'img/foto-bebe-m.png')
             } else if (idade < 21) {
                 img.setAttribute('src', 'img/foto-jovem-m.png')
@@ -36,6 +36,7 @@ function verificar() {
                 img.setAttribute('src', 'img/foto-idoso-f.png')
             }
         }
+
         res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${genero} de ${idade} anos.`
         res.appendChild(img)
