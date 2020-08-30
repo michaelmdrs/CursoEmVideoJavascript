@@ -41,6 +41,10 @@ input#btn:hover {
     background: cornflowerblue;
 }
 
+img#arrow {
+    height: 18px;
+}
+
 p#button {
     margin-top: 40px;
 }
