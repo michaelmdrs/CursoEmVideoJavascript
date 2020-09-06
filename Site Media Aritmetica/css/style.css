@@ -31,6 +31,7 @@ header h1 {
     background-color: white;
     font-family: 'Roboto', sans-serif;
     height: 10vh;
+    margin-top: 1rem;
     text-align: center;
     width: 50vw;
 }
@@ -90,12 +91,12 @@ header p {
     border-radius: 1.2rem;
     cursor: pointer;
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    height: 5.5vh;
-    margin-left: 15rem;
+    font-size: 18px;
+    height: 7vh;
+    margin-left: 11rem;
     margin-top: 2rem;
     transition: 0.3s;
-    width: 12vw;
+    width: 20vw;
 }
 
 #btn-verificar:hover {
@@ -108,4 +109,10 @@ header p {
     margin: 0 auto;
     margin-left: 2rem;
     margin-top: 2rem;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 3rem;
 }
