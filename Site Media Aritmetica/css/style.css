@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #fe626d;
+    --secundary-color: #bc343e;
+    --strong-color: #1a2e35;
+    --button: #5800a0;
+    --font-button: #ffffff;
+}
+
+body img {
+    display: flex;
+    float: right;
+    height: 100vh;
+    margin-top: -5rem;
+}
+
+section {
+    background: var(--primary-color);
+    border-radius: 30px;
+    height: 70vh;
+    margin-left: 2rem;
+    width: 50vw;
+}
+
+header h1 {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 10vh;
+    text-align: center;
+    width: 50vw;
+}
+
+header p {
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    height: 5vh;
+    text-align: center;
+    width: 50vw;
+}
+
+#form-aluno {
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+}
+
+#form-aluno p {
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+#txtnome {
+    height: 4vh;
+    width: 35vw;
+}
+
+#nota1 {
+    height: 4vh;
+    margin-left: 0.3rem;
+    width: 4vw;
+}
+
+#nota2 {
+    height: 4vh;
+    width: 4vw;
+}
+
+#nota3 {
+    height: 4vh;
+    margin-left: 0.5rem;
+    width: 4vw;
+}
+
+#nota4 {
+    height: 4vh;
+    margin-left: 1.2rem;
+    width: 4vw;
+}
+
+#btn-verificar {
+    background: var(--button);
+    color: var(--font-button);
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    height: 5.5vh;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    transition: 0.3s;
+    width: 12vw;
+}
+
+#btn-verificar:hover {
+    background: darkblue;
+}
+
+#resultado p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}

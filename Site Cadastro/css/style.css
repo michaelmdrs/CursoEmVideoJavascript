@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #02E8D0;
+    --secundary-color: #2F26FF;
+    --base-color: #0E37DB;
+    --color-strong: #06008F;
+    --color-text: #ffffff;
+    --font-color: #bc343e;
+    --font-t1: #bf0042;
+    --font-t2: #1A2E35;
+}
+
+#page-landing {
+    background: var(--color-text);
+}
+
+.img-student {
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    display: flex;
+    height: 40rem;
+    margin-right: 1rem;
+    margin-top: -240px;
+}
+
+header h1 {
+    align-items: center;
+    color: var(--font-t2);
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 3rem;
+    justify-content: left;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.form-aluno p {
+    align-items: center;
+    color: var(--font-t1);
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    font-weight: 500;
+    justify-content: left;
+    margin-left: 80px;
+    line-height: 2.4rem;
+}
+
+.form-aluno p#nome {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.form-aluno input {
+    font-size: 24px;
+    margin-left: 10px;
+    height: 2rem;
+    width: 20rem;
+}
+
+p#curso input {
+    width: 29rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 3.2 0;
+}
+
+.button-container a img {
+    margin-right: 2.3rem;
+    width: 3rem;
+}
+
+.button-container a {
+    align-items: center;
+    border-radius: 0.8rem;
+    color: var(--color-text);
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 4.5rem;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-right: 1.6rem;
+    text-decoration: none;
+    width: 15rem;
+    transition: 0.2s;
+}
+
+.button-container a.aluno {
+    background: var(--font-t1);
+}
+
+.button-container a:hover {
+    background-color: var(--color-strong);
+}

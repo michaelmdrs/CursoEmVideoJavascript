@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>PORTAL DO ALUNO</title>
+</head>
+<body>
+    <header>
+        <h1>Confira seu resultado!</h1>
+        <p>Digite suas informações e saiba sua nota</p>
+    </header>
+
+    <img src="assets/student.jpg" alt="">
+
+    <section>
+
+        <div id="form-aluno">
+            <p>Nome: 
+                <input type="text" name="txtnome" id="txtnome" required>
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="mas">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>Primeira nota: 
+                <input type="number" name="txtnota1" id="nota1" min="0" max="10">
+            </p>
+            <p>Segunda nota: 
+                <input type="number" name="txtnota2" id="nota2" min="0" max="10">
+            </p>
+            <p>Terceira nota: 
+                <input type="number" name="txtnota3" id="nota3" min="0" max="10">
+            </p>
+            <p>Quarta nota:
+                <input type="number" name="txtnota4" id="nota4" min="0" max="10">
+            </p>
+
+            <p>
+                <input type="button" value="Verificar" id="btn-verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="resultado">
+            <p>Aguarde o resultado...</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; Michael Santos | Front-end | 2019&reg;</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
