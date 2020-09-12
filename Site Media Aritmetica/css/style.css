@@ -45,6 +45,10 @@ header p {
     width: 50vw;
 }
 
+#txtnome {
+    font-size: 20px;
+}
+
 #form-aluno {
     font-family: 'Rubik', sans-serif;
     margin-left: 2rem;
@@ -62,23 +66,27 @@ header p {
 }
 
 #nota1 {
+    font-size: 18px;
     height: 4vh;
     margin-left: 0.3rem;
     width: 4vw;
 }
 
 #nota2 {
+    font-size: 18px;
     height: 4vh;
     width: 4vw;
 }
 
 #nota3 {
+    font-size: 18px;
     height: 4vh;
     margin-left: 0.5rem;
     width: 4vw;
 }
 
 #nota4 {
+    font-size: 18px;
     height: 4vh;
     margin-left: 1.2rem;
     width: 4vw;
@@ -104,11 +112,18 @@ header p {
 }
 
 #resultado p {
+    background: #1a2e35;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
+    height: 20vh;
     margin: 0 auto;
     margin-left: 2rem;
     margin-top: 2rem;
+    width: 40vw;
+}
+
+#resultado img {
+    height: 3rem;
 }
 
 footer {
