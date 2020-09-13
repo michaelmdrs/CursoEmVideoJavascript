@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Verificador de Idade</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Vamos Contar</h1>
+      <h1>Vamos Contar</h1>
     </header>
 
     <section>
-        <div>
-            <p>Início:
-                <input type="number" name="inicio" id="inicio">
-            </p>
-            <p>Fim:
-                <input type="number" name="fim" id="fim">
-            </p>
-            <p>Passo:
-                <input type="text">
-            </p>
-        </div>
-        <div>
-            Contando...
-        </div>
+      <div>
+        <p>
+          Início:
+          <input type="number" name="inicio" id="inicio" required/>
+        </p>
+        <p>
+          Fim:
+          <input type="number" name="fim" id="fim" required/>
+        </p>
+        <p>
+          Passo:
+          <input type="number" name="passo" id="passo" required/>
+        </p>
+        <p>
+          <input type="button" value="Resultado" id="btn" onclick="verificar()" />
+        </p>
+      </div>
+      <div id="res">Contando...</div>
     </section>
 
     <footer>
-        <p>&copy;Michael Santos - Web Developer</p>
+      <p>&copy;Michael Santos - Web Developer</p>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>

@@ -28,3 +28,42 @@ footer {
     font-style: italic;
     text-align: center;
 }
+
+input#inicio {
+    font-size: 14pt;
+    height: 1.2rem;
+    margin: 0 0 1rem;
+    width: 6rem;
+}
+
+input#fim {
+    font-size: 14pt;
+    height: 1.2rem;
+    margin: 0 0 1rem;
+    margin-left: 1rem;
+    width: 6rem;
+}
+
+input#passo {
+    font-size: 14pt;
+    height: 1.2rem;
+    margin: 0 0 1rem;
+    width: 6rem;
+}
+
+input#btn {
+    background: #868686;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 12pt;
+    padding: 0.5rem;
+    margin: 0 0 1rem;
+    transition: 0.2s;
+    width: 8rem;
+}
+
+input#btn:hover {
+    background: #0044ff;
+    color: aliceblue;
+}
