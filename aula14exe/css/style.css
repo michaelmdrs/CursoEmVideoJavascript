@@ -28,3 +28,42 @@ footer {
     font-style: italic;
     text-align: center;
 }
+
+.main {
+    font-size: 18pt;
+    margin: 10px;
+}
+
+input#inicio {
+    font-size: 14pt;
+    width: 15%;
+}
+
+input#fim {
+    font-size: 14pt;
+    margin-left: 3.5%;
+    width: 15%;
+}
+
+input#passo {
+    font-size: 14pt;
+    width: 15%;
+}
+
+input#btn {
+    background-color: darkgray;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font: normal 14pt Montserrat;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    transition: 0.2s;
+    width: 150px;
+}
+
+input#btn:hover {
+    background-color: #0044ff;
+    color: #ffffff;
+}

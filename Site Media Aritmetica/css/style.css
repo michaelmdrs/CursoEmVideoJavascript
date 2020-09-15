@@ -115,24 +115,14 @@ header p {
     background: darkblue;
 }
 
-#resultado p {
-    background: #1a2e35;
+#resultado {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
-    height: 20vh;
+    height: 15vh;
     margin: 0 auto;
     margin-left: 2rem;
     margin-top: 2rem;
     width: 40vw;
-}
-
-#resultado img {
-    height: 3rem;
-}
-
-#resultado img {
-    height: 10px;
-    width: 10px;
 }
 
 footer {
