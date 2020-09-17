@@ -2,7 +2,7 @@ function gerar() {
     let number = Number(document.getElementById('number').value)
     let res = document.getElementById('txtres')
 
-    if (number <= 0) {
+    if (number == '') {
         alert('[ERRO] Digite um número válido')
     } else {
         res.innerHTML = ''
