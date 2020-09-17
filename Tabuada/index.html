@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/display.css">                                
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tabuada Completa</h1>
+    </header>
+
+    <section class="main item">
+
+        <div class="item_first">
+            <p>Número: 
+                <input type="number" name="number" id="number">
+                <span>
+                    <input id="btn" type="button" value="Gerar resultado" onclick="gerar()">
+                </span>
+            </p>
+        </div><br>
+        <div class="item_second">
+            <img id="img" src="./assets/teacher.png" alt="Ilustração Professor Coruja">
+        </div>
+        <div class="item_third">
+            <select name="txtres" id="txtres" size="10"></select>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy;Michael Santos - Web Developer</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
