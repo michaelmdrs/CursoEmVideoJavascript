@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0044ff;
+    font: normal 16pt Montserrat;
+    margin-top: 30px;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.733);
+    margin: 30px auto;
+    padding: 15px;
+    width: 600px;
+}
+
+footer {
+    color: #ffffff;
+    font-style: normal;
+    text-align: center;
+}
+
+input#fnumero {
+    font: normal 14pt Montserrat;
+    width: 200px;
+}
+
+input#btn {
+    background: #0044ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: normal 13pt Montserrat;
+    height: 30px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    width: 100px;
+}
+
+input#btn:hover {
+    color: whitesmoke;
+    background-color: #244399;
+}
+
+input#btnfinalizar {
+    background: #28A745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font: normal 13pt Montserrat;
+    height: 30px;
+    transition: 0.3s;
+    width: 100px;
+}
+
+input#btnfinalizar:hover {
+    color: whitesmoke;
+    background-color: #04791f;
+}
