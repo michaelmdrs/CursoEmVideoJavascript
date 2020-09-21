@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ePedido - Faça seu pedido com simplicidade</title>
+</head>
+
+<body>
+    <header id="topo-site">
+        <img src="assets/pedidos-logo.png" alt="Logotipo pedidos" id="logo-img">
+        <link rel="stylesheet" href="index.html">
+    </header>
+
+    <section>
+        <div>
+            Código Produto:
+            <input type="number" name="codProduto" id="codProduto">
+            Produto: 
+            <input id="txtPedido" type="text" placeholder="Digite o nome do produto">
+            <input id="btnAdicionar" type="button" value="Adicionar" onclick="adicionar()">
+        </div>
+        <div>
+            <textarea name="pedido" id="pedido" cols="70" rows="10" style="resize: none" placeholder="Detalhe do seu pedido..."></textarea>
+        </div>
+        <div id="btn">
+            <input id="btnEnviar" type="button" value="Enviar pedido" onclick="enviarPedido()">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;Michael Santos - Web Developer</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

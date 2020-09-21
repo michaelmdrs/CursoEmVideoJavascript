@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ededed;
+    font: normal 16pt Montserrat;
+}
+
+header {
+    background: #ffffff;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+img#logo-img {
+    cursor: pointer;
+}
+
+section {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.733);
+    margin: 30px auto;
+    padding: 15px;
+    width: 800px;
+}
+
+footer {
+    color: #1c4fbc;
+    font-style: normal;
+    text-align: center;
+}
+
+input#codProduto {
+    font: normal 14pt Montserrat;
+    width: 80px;
+}
+
+input#txtPedido {
+    font: normal 14pt Montserrat;
+}
+
+input#btnAdicionar {
+    background: #1c4fbc;
+    border: none;
+    border-radius: 5px;
+    color: cornsilk;
+    cursor: pointer;
+    font: normal 12pt Montserrat;
+    height: 25px;
+    transition: 0.3s;
+    width: 100px;
+}
+
+input#btnAdicionar:hover {
+    background-color: #033297;
+    color: #ffffff;
+}
+
+textarea#pedido {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+input#btnEnviar {
+    background: #1c4fbc;
+    border: none;
+    border-radius: 5px;
+    color: cornsilk;
+    cursor: pointer;
+    font: normal 12pt Montserrat;
+    height: 30px;
+    transition: 0.3s;
+    width: 300px;
+}
+
+input#btnEnviar:hover {
+    background-color: #033297;
+    color: #ffffff;
+}
