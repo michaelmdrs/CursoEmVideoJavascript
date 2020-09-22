@@ -60,6 +60,11 @@ input#btnAdicionar:hover {
     color: #ffffff;
 }
 
+small#msg {
+    color: darkgrey;
+    font-size: 12px;
+}
+
 textarea#pedido {
     margin-bottom: 15px;
     margin-top: 30px;
